@@ -1,0 +1,8 @@
+.ant-card-cover {
+    height: 200px !important;
+}
+
+.advertisement img {
+    max-height: 100%;
+    width: auto;
+}

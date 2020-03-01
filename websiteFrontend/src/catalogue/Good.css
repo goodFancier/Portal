@@ -1,0 +1,135 @@
+@media (min-width: 640px) {
+    .good-panel {
+        height: 600px;
+    }
+}
+
+@media (max-width: 640px) {
+    .good-panel {
+        padding-top: 50px;
+    }
+}
+
+@media (min-width: 640px) {
+    .additionalInfo {
+        height: auto;
+        padding-bottom: 100px;
+    }
+}
+
+.additionalInfo {
+    padding-bottom: 100px;
+}
+
+.good-panel .good-image, .good-panel-div {
+    height: 100%;
+}
+
+.good-panel .ant-row-flex {
+    height: 80%;
+}
+
+.good-panel-good-img {
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (min-width: 701px) {
+    .good-title {
+        color: #333;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 700px) {
+    .good-title {
+        color: #333;
+        font-size: 20px;
+        width: 100%;
+        min-width: 300px;
+    }
+}
+
+.good-image {
+    padding-top: 30px;
+}
+
+.price-label {
+    padding-top: 30px;
+}
+
+.good-card-actions {
+    background: #fafafa !important;
+}
+
+.good-card-actions ul {
+    border-top: none !important;
+}
+
+.good-card-actions .ant-card-body {
+    padding: 16px;
+}
+
+.good-card-buy-button {
+    width: 90% !important;
+    background-color: #4041A6 !important;
+    color: #f2f2f2;
+    height: 40px;
+    border: none;
+}
+
+.good-card-buy-button:hover {
+    color: #1890ff;
+}
+
+@media (min-width: 760px) {
+    .good-header {
+        height: 55px;
+        background: #fafafa !important;
+    }
+}
+
+@media (max-width: 759px) {
+    .good-header {
+        height: 55px;
+        background: #fafafa !important;
+        margin-top: 50px;
+    }
+}
+
+.good-header a {
+    color: #333;
+    line-height: 2;
+    display: inline-block;
+    font-size: 16px !important;
+    padding: 10px;
+}
+
+.good-header a:hover {
+    color: red;
+}
+
+.good-header div {
+    float: left;
+}
+
+.additionalInfo {
+    margin-top: 20px;
+}
+
+.good-description {
+    text-align: justify;
+}
+
+.good-add-to-bucket {
+    float: right;
+}
+
+.good-panel .ant-col {
+    min-width: 200px !important;
+}
+
+.good-panel .advertisement {
+    width: 100% !important;
+}
